@@ -28,7 +28,7 @@ export const FormContainer = styled.form`
 
 export const Input = styled.input`
   width: 30vw;
-  min-width: 12rem;
+  min-width: 17rem;
   height: 3.125rem;
   margin: 0.625rem auto;
   padding: 1.25rem;
@@ -40,6 +40,10 @@ export const Input = styled.input`
   &:focus {
     border: 1px solid #ffdbd4;
   }
+
+  @media (min-width: 48.75rem) {
+    min-width: 17rem;
+  }
 `;
 
 export const Label = styled.label`
@@ -48,7 +52,7 @@ export const Label = styled.label`
 `;
 
 export const Textarea = styled.textarea`
-  min-width: 30vw;
+  min-width: 17rem;
   height: 9.375rem;
   margin: 0.625rem auto;
   padding: 1.25rem;
@@ -59,10 +63,14 @@ export const Textarea = styled.textarea`
   &:focus {
     border: 1px solid #ffdbd4;
   }
+
+  @media (min-width: 48.75rem) {
+    min-width: 30vw;
+  }
 `;
 
 export const Button = styled.button`
-  width: 30vw;
+  width: 17rem;
   margin-top: 2rem;
   padding: 0.9375rem;
   font-size: 1rem;
@@ -73,10 +81,14 @@ export const Button = styled.button`
   background: #ffdbd4;
   color: #ffff;
   font-weight: 600;
+
+  @media (min-width: 48.75rem) {
+    min-width: 30vw;
+  }
 `;
 
 export const Link = styled.a`
-  width: 30vw;
+  width: 17rem;
   text-align: center;
   padding: 0.9375rem;
   font-size: 1rem;
@@ -88,5 +100,9 @@ export const Link = styled.a`
 
   &:hover {
     text-decoration: underline;
+  }
+
+  @media (min-width: 48.75rem) {
+    min-width: 30vw;
   }
 `;
