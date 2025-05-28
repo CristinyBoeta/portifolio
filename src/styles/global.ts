@@ -9,6 +9,7 @@ const GlobalStyle = createGlobalStyle`
   }
   body, html {
     padding: 0;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     height: auto;
     min-height: 100%;
