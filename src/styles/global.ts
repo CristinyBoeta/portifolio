@@ -10,6 +10,8 @@ const GlobalStyle = createGlobalStyle`
   body, html {
     padding: 0;
     margin: 0;
+    height: auto;
+    min-height: 100%;
     font-size: 16px;
     @media (max-height: 50.3125rem) {
       font-size: 14px;
