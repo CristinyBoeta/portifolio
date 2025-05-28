@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 
-export const HomeContainer = styled.main`
-  background: linear-gradient(to bottom, #ffdbd4, #ffe4df, #ffedea);
-  height: 100vh;
+export const HomeContainer = styled.section`
+  height: 100%;
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   gap: 8rem;
   padding: 1.5rem;
 
@@ -17,7 +17,7 @@ export const HomeContainer = styled.main`
   }
 `;
 
-export const SectionContainer = styled.section`
+export const SectionContainer = styled.div`
   display: flex;
   flex-direction: column;
   gap: 2rem;
