@@ -49,6 +49,7 @@ export const Input = styled.input`
 export const Label = styled.label`
   align-self: flex-start;
   margin-top: 1rem;
+  font-weight: 400;
 `;
 
 export const Textarea = styled.textarea`
@@ -105,4 +106,9 @@ export const Link = styled.a`
   @media (min-width: 48.75rem) {
     min-width: 30vw;
   }
+`;
+
+export const Error = styled.span`
+  color: red;
+  font-size: 0.875rem;
 `;
